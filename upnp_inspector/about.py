@@ -25,8 +25,7 @@ class AboutWidget():
             self.window.set_name('UPnP Inspector')
         self.window.set_version(__version__)
         self.window.set_copyright('(c) Frank Scholz <coherence@beebits.net>\n'
-                                  '(c) Hartmut Goebel <h.goebel@crazy-compilers.com>\n'
-                                  '(c) Robert Bouterse <wd8rde@gmail.com>')
+                                  '(c) Hartmut Goebel <h.goebel@crazy-compilers.com>')
         self.window.set_comments(
             "An UPnP Device and Service analyzer,\n"
             "based on the Coherence DLNA/UPnP framework.\n"
@@ -39,7 +38,8 @@ class AboutWidget():
         self.window.set_authors([
             'Frank Scholz <fs@beebits.net>',
             'Michael Weinrich <testsuite@michael-weinrich.de>',
-            'Hartmut Goebel <h.goebel@crazy-compilers.com>'])
+            'Hartmut Goebel <h.goebel@crazy-compilers.com>',
+            'Robert Bouterse <wd8rde@gmail.com>'])
         self.window.set_artists([
             'Tango Desktop Project http://tango.freedesktop.org',
             'David Göthberg: http://commons.wikimedia.org/wiki/User:Davidgothberg',
