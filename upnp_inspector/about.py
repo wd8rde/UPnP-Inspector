@@ -25,7 +25,8 @@ class AboutWidget():
             self.window.set_name('UPnP Inspector')
         self.window.set_version(__version__)
         self.window.set_copyright('(c) Frank Scholz <coherence@beebits.net>\n'
-                                  '(c) Hartmut Goebel <h.goebel@crazy-compilers.com>')
+                                  '(c) Hartmut Goebel <h.goebel@crazy-compilers.com>\n'
+                                  '(c) Robert Bouterse <wd8rde@gmail.com>')
         self.window.set_comments(
             "An UPnP Device and Service analyzer,\n"
             "based on the Coherence DLNA/UPnP framework.\n"
