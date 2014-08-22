@@ -29,9 +29,10 @@ from ._resources import _geticon_path
 class Inspector(log.Loggable):
     logCategory = 'inspector'
 
-    def __init__(self, logfile=None):
+    def __init__(self, logfile=None, interface=None):
         config = {'logmode': 'none',
-                  'logfile': logfile}
+                  'logfile': logfile,
+                  'interface': interface}
         self.coherence = Coherence(config)
         self.controlpoint = ControlPoint(self.coherence, auto_client=[])
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
