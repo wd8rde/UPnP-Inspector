@@ -113,6 +113,15 @@ __ http://www.python.org/download/
 Installing The Inspector
 ---------------------------------
 
+Install dependancies::
+
+    https://github.com/wd8rde/Coherence
+    
+Install packages::
+    
+    sudo apt install python-gtk2    
+    sudo apt install python-setuptools
+    
 When you are reading this you most probably already downloaded and
 unpacked |Inspector|. Thus installing is as easy as running::
 
